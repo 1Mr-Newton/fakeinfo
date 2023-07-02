@@ -2,20 +2,21 @@
 
 This is a Python API built with Flask that provides fake information for testing and development purposes. It offers endpoints to retrieve and manipulate fake posts, comments, users, jobs, and generate image placeholders.
 ## Options
-There are two options, you can install this project and run it locally, or use access it online at https://fakeinfo.info. You'll find how to the online API. If you want to run it locally, you can continue to the installation and usage guides.
+There are two options, you can install this project and run it locally, or access the online API at [FakeInfo](https://fakeinfo.info). Docs on how to use it will be found there.
+If you want to run it locally, you can continue to the installation and usage guides.
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your/repo.git
+   git clone https://github.com/1Mr-Newton/fakeinfo.git
    ```
 
 2. Change to the project directory:
 
    ```bash
-   cd repo
+   cd fakeinfo
    ```
 
 3. Install the required dependencies:
@@ -82,6 +83,7 @@ Retrieves jobs, paginated jobs, or a single job by its ID.
 Generates a placeholder image with 400x200 dimensions.
 
 - `GET /api/v1/imageplaceholder?width=<width>&height=<height>`
+
 Generates a placeholder image with specified dimensions. Default: 400x200
 
 ## Error Handling
